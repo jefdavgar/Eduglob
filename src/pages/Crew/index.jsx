@@ -26,7 +26,7 @@ function Crew() {
               <Slider jsonData = {jsonData} setMember = {setMember} />
             </DescriptionContainer>
             <ImageContainer>  
-              <img src={`/src${jsonData[member].images.webp.substring(1)}`} alt={`${jsonData[member].images.webp.substring(1)}`} />
+              <img src={`/src${jsonData[member].images.png.substring(1)}`} alt={`${jsonData[member].images.webp.substring(1)}`} />
             </ImageContainer>
           </ItemsContainerContent>
         </ItemsContainer>
