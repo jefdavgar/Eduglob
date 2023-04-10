@@ -37,7 +37,7 @@ function Technology() {
             </DescriptionContainer>
             <ImageContainer>
               <picture>
-                <source media="(max-width: 900px)" srcSet={`/src${jsonData[selection] ? jsonData[selection].images.landscape.substring(1) : ''}`} />
+                <source media="(max-width: 900px)" srcSet={jsonData[selection].images.landscape} />
                 <img src={jsonData[selection].images.portrait} alt={jsonData[selection].name} />
               </picture>
             </ImageContainer>
