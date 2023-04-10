@@ -142,6 +142,7 @@ export const FowardButtonContainer = styled.div`
       padding: 68px 27.5px 59px 29.5px;
       font-size: 20px;
       line-height: 23px;
+      margin-bottom: 15px;
 
       &:hover, &:active {
         box-shadow: rgba(225, 255, 255, 0.1) 0px 0px 0px 44px;

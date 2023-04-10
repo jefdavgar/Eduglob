@@ -23,7 +23,7 @@ function Destination() {
         <ItemsContainerContent>
           <ImageContainer>
             <div className="img-container">
-              <img src={`${jsonData[planet] ? jsonData[planet].images.webp : ''}`} alt={`${jsonData[planet] ? jsonData[planet].images.webp.substring(1) : ''}`} />
+              <img src={jsonData[planet].images.webp} alt={jsonData[planet].name} />
             </div>
           </ImageContainer>
           <PlanetData>
