@@ -1,6 +1,7 @@
 import styled, { keyframes } from "styled-components";
-import backgroundDesktopImg from '../../assets/technology/background-technology-desktop.jpg'
-import backgroundTabletImg from '../../assets/technology/background-technology-tablet.jpg'
+import backgroundDesktopImg from '../../../public/assets/technology/background-technology-desktop.jpg'
+import backgroundTabletImg from '../../../public/assets/technology/background-technology-tablet.jpg'
+import backgroundMobileImg from '../../../public/assets/technology/background-technology-mobile.jpg'
 
 const entranceAnim = keyframes`
   0% {
@@ -26,8 +27,12 @@ export const Container = styled.div`
   
   @media (max-width: 900px) {
     background-image: url(${backgroundTabletImg});
-    
   }
+
+  @media (max-width: 500px) {
+    background-image: url(${backgroundMobileImg});
+  }
+
 `
 
 export const ItemsContainer = styled.div`

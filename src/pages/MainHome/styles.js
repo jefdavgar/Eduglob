@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import menuOpen from '../../assets/shared/icon-hamburger.svg'
-import menuClose from '../../assets/shared/icon-close.svg'
+import menuOpen from '../../../public/assets/shared/icon-hamburger.svg'
+import menuClose from '../../../public/assets/shared/icon-close.svg'
 
 export const Container = styled.div`
   display: flex;
