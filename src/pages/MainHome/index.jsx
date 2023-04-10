@@ -1,5 +1,5 @@
 import { Container, Navbar, NavbarList } from "./styles"
-import siteLogo from '../../assets/shared/logo.svg'
+import siteLogo from '../../../public/assets/shared/logo.svg'
 import { useState } from "react"
 import Home from "../Home/index"
 import Destination from "../Destination"
