@@ -4,105 +4,72 @@
       "name": "Cobertura",
       "images": {
         "png": "./assets/destination/image-moon.png",
-        "webp": "https://mapas.bogota.gov.co/?l=23214&e=-74.69489573996664,4.370347948550734,-73.74389171164596,4.910333418777395,4686&b=7256&show_menu=true&show_list=false&open_menu=false&show_search=false&show_legend=false"
+        "webp": "https://mapas.bogota.gov.co/?l=23214&e=-74.69489573996664,4.370347948550734,-73.74389171164596,4.910333418777395,4686&b=7256&show_menu=true&show_list=false&open_menu=false&show_search=false&show_legend=false",
+        "width": 500,
+        "height": 500
       },
       "description": "En nuestra misión por cerrar la brecha digital y promover el acceso a la información para todos, hemos recopilado datos actualizados sobre las zonas de conectividad gratuita en cada localidad. Esta herramienta te ayudará a aprovechar al máximo las oportunidades de conectividad en la ciudad y estar siempre conectado en tu búsqueda de conocimiento, educación y oportunidades en línea.",
       "distance": "83 Entidades",
       "travel": "103 Puntos de acceso"
     },
     {
-      "name": "Dashboard",
+      "name": "Proyectos",
       "images": {
         "png": "./assets/destination/image-mars.png",
-        "webp": "https://app.powerbi.com/view?r=eyJrIjoiZGI1NGZjOTUtOTEyMy00N2JjLWI3NWMtODI0OGMwYzZkMjc2IiwidCI6ImRhNDUyMmNlLTg3YTAtNGM2Yy05ZWRlLWY5M2MzMzY0NTI2MiIsImMiOjR9&pageName=ReportSection"
+        "webp": "https://app.powerbi.com/view?r=eyJrIjoiZGI1NGZjOTUtOTEyMy00N2JjLWI3NWMtODI0OGMwYzZkMjc2IiwidCI6ImRhNDUyMmNlLTg3YTAtNGM2Yy05ZWRlLWY5M2MzMzY0NTI2MiIsImMiOjR9",
+        "width": 800,
+        "height": 700
       },
-      "description": "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!",
-      "distance": "225 mil. km",
-      "travel": "9 months"
-    },
-    {
-      "name": "Europa",
-      "images": {
-        "png": "./assets/destination/image-europa.png",
-        "webp": "https://mapas.bogota.gov.co/?l=23214&e=-74.69489573996664,4.370347948550734,-73.74389171164596,4.910333418777395,4686&b=7256&show_menu=true"
-      },
-      "description": "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.",
-      "distance": "628 mil. km",
-      "travel": "3 years"
-    },
-    {
-      "name": "Titan",
-      "images": {
-        "png": "./assets/destination/image-titan.png",
-        "webp": "https://mapas.bogota.gov.co/?l=23214&e=-74.69489573996664,4.370347948550734,-73.74389171164596,4.910333418777395,4686&b=7256&show_menu=true"
-      },
-      "description": "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
-      "distance": "1.6 bil. km",
-      "travel": "7 years"
+      "description": "Sumérgete en las cifras que revelan la inversión en los Puntos Vive Digital en Bogotá (Proyecto del ministerio de las TIC). Sorprendentemente, desde 2019, ninguno de los 36 puntos está disponible. Este desafío muestra la dificultad de mantener proyectos de conectividad. Las comunidades desfavorecidas, como Chapinero con solo un Punto Vive Digital, son las más afectadas. A pesar de la noble causa, nuevas tecnologías pueden cubrir más áreas de Bogotá. Nuestro proyecto lidera esta transformación hacia una conectividad más amplia y sostenible.",
+
+      "distance": "El 84% Personas usan Internet",
+      "travel": "Solo el 36% Hogares tienen dispositivos tenologicos"
     }
   ],
   "crew": [
     {
-      "name": "Douglas Hurley",
+      "name": "Jeferson Camero",
       "images": {
-        "png": "./assets/crew/image-douglas-hurley.png",
-        "webp": "./assets/crew/image-douglas-hurley.webp"
+        "png": "./assets/crew/jeferson.jpeg",
+        "webp": "./assets/crew/jeferson.jpeg"
       },
-      "role": "Commander",
-      "bio": "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2."
+      "role": "Desarrollador",
+      "bio": "Es un estudiante y desarrollador freelance de Ingeniería de Sistemas, experto en aplicaciones web y soluciones personalizadas con JavaScript, React, Redux, Node.js y Express.js. También domina el análisis de datos exploratorio con Excel y Power BI. Se destaca por su autonomía, proactividad y responsabilidad, así como por su experiencia en liderazgo de proyectos y creación de soluciones innovadoras. Su pasión por la tecnología lo lleva a participar en la transformación tecnológica y a resolver desafíos de forma creativa e innovadora."
     },
     {
-      "name": "Mark Shuttleworth",
+      "name": "Santiago Ureña",
       "images": {
-        "png": "./assets/crew/image-mark-shuttleworth.png",
-        "webp": "./assets/crew/image-mark-shuttleworth.webp"
+        "png": "./assets/crew/santiago.jpeg",
+        "webp": "./assets/crew/santiago.jpeg"
       },
-      "role": "Mission Specialist",
-      "bio": "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist."
-    },
-    {
-      "name": "Victor Glover",
-      "images": {
-        "png": "./assets/crew/image-victor-glover.png",
-        "webp": "./assets/crew/image-victor-glover.webp"
-      },
-      "role": "Pilot",
-      "bio": "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer."
-    },
-    {
-      "name": "Anousheh Ansari",
-      "images": {
-        "png": "./assets/crew/image-anousheh-ansari.png",
-        "webp": "./assets/crew/image-anousheh-ansari.webp"
-      },
-      "role": "Flight Engineer",
-      "bio": "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space."
+      "role": "Diseñador",
+      "bio": "Es un estudiante de diseño y tatuador que quiere una Bogotá más sostenible con el uso renovable de sus materiales. Es creativo e innovador, y hace arte en la piel y en el papel. Usa tintas naturales y biodegradables, agujas reutilizables y esterilizadas, y papel reciclado. Su propósito es aportar al desarrollo sostenible de Chapinero y Bogotá con su pasión por el diseño y el tatuaje."
     }
   ],
   "technology": [
     {
-      "name": "Launch vehicle",
+      "name": "Globos estratosféricos",
       "images": {
         "portrait": "./assets/technology/image-launch-vehicle-portrait.jpg",
         "landscape": "./assets/technology/image-launch-vehicle-landscape.jpg"
       },
-      "description": "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"
+      "description": "Con el innovador enfoque de Loon como inspiración, hemos desarrollado un prototipo que utiliza globos estratosféricos para conectar al mundo. Nuestro objetivo es llevar conectividad a la localidad de Chapinero, donde muchas personas carecen de acceso a internet. Nuestro prototipo aprovecha los vientos estratosféricos para desplazarse por el cielo y ofrecer acceso a zonas remotas, siguiendo la misma lógica que Loon. Con esta inspiración, buscamos contribuir al cierre de la brecha digital y al desarrollo de comunidades excluidas a través de una conectividad inclusiva y sostenible."
     },
     {
-      "name": "Spaceport",
+      "name": "Caracteristicas",
       "images": {
         "portrait": "./assets/technology/image-spaceport-portrait.jpg",
         "landscape": "./assets/technology/image-spaceport-landscape.jpg"
       },
-      "description": "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch."
+      "description": "Nuestro proyecto usa globos estratosféricos inspirados en Loon. Estos globos son del tamaño de una cancha de tenis y están hechos de polietileno para aguantar temperaturas extremas de 150°C a -90°C. También pueden cambiar de altitud y dirección según los vientos, como el sistema de ‘balonete’ de Loon. Así, logramos una conectividad flexible y sostenible en zonas remotas."
     },
     {
-      "name": "Space capsule",
+      "name": "Sistema",
       "images": {
         "portrait": "./assets/technology/image-space-capsule-portrait.jpg",
         "landscape": "./assets/technology/image-space-capsule-landscape.jpg"
       },
-      "description": "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."
+      "description": "Estos globos tienen unos paneles que captan la luz del sol y la convierten en energía para que funcionen. También tienen un sistema que les permite moverse y dirigirse según el viento. Cuando los globos necesitan bajar, tienen un paracaídas que los ayuda a hacerlo de forma segura. Además, tienen unos aparatos que envían y reciben la señal de internet desde otros globos y hasta las personas abajo. Así, logramos una conexión rápida y confiable para todos."
     }
   ]
 }

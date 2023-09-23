@@ -23,7 +23,7 @@ function Destination() {
         <ItemsContainerContent>
           <ImageContainer>
             <div className="img-container">
-              <iframe width='500' height='500' frameborder='0' scrolling='no' src={jsonData[planet].images.webp} alt={jsonData[planet].name} />
+              <iframe width={jsonData[planet].images.width} height={jsonData[planet].images.height} frameborder="0" allowFullScreen="true" src={jsonData[planet].images.webp} alt={jsonData[planet].name} />
             </div>
           </ImageContainer>
           <PlanetData>
@@ -36,8 +36,8 @@ function Destination() {
               <h1>{jsonData[planet] ? jsonData[planet].name : ''}</h1>
               <p>{jsonData[planet] ? jsonData[planet].description : ''}</p>
               <div className="planet-data-numbers">
-                <p><span>1</span>{jsonData[planet] ? jsonData[planet].distance : ''}</p>
-                <p><span>2</span>{jsonData[planet] ? jsonData[planet].travel : ''}</p>
+                <p><span>INFORMACIÓN</span>{jsonData[planet] ? jsonData[planet].distance : ''}</p>
+                <p><span>CONECTIVIDAD</span>{jsonData[planet] ? jsonData[planet].travel : ''}</p>
               </div>
             </PlanetDataInfos>
           </PlanetData>

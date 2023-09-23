@@ -18,7 +18,7 @@ function Technology() {
       {!jsonData[selection] ? <div></div> :
         <ItemsContainer>
           <ItemsContainerTitle>
-            <h2><span>03</span> SPACE LAUNCH 101</h2>
+            <h2><span>03</span> Propuesta</h2>
           </ItemsContainerTitle>
           <ItemsContainerContent>
             <DescriptionContainer>
@@ -29,7 +29,7 @@ function Technology() {
                   <li className={`${selection === 2 ? 'selected' : ''}`} onClick={() => setSelection(2)}>3</li>
                 </DescriptionSelector>
                 <DescriptionData>
-                  <span>THE TERMINOLOGY...</span>
+                  <span>Juntos por una conectividad inclusiva</span>
                   <h1>{jsonData[selection] ? jsonData[selection].name : ''}</h1>
                   <p>{jsonData[selection] ? jsonData[selection].description : ''}</p>
                 </DescriptionData>

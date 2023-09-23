@@ -19,7 +19,7 @@ function Crew() {
       {!jsonData[member] ? <div></div> :
         <ItemsContainer>
           <ItemsContainerTitle>
-            <h2><span>02</span> MEET YOUR CREW</h2>
+            <h2><span>02</span> Conoce nuestro equipo</h2>
           </ItemsContainerTitle>
           <ItemsContainerContent>
             <DescriptionContainer>
