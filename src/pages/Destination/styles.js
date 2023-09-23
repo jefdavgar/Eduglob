@@ -19,7 +19,7 @@ const planetAnim = keyframes`
 	}
 
 	100% {
-		transform: rotate(360deg);
+		transform: rotate(0deg);
 	}
 `;
 

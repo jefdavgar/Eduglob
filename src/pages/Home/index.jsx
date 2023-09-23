@@ -5,12 +5,11 @@ function Home({exploreFunction}) {
     <Container>
       <ItemsContainer>
         <DescriptionContainer>
-          <span>SO, YOU WANT TO TRAVEL TO</span>
-          <h1>SPACE</h1>
-          <p>Let&apos;s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we&apos;ll give you a truly out of this world experience!</p>
+          <h1>EduGlobo</h1>
+          <p>Nuestra solución tiene como objetivo no solo cerrar la brecha digital, sino también garantizar que todas las personas, sin importar su ubicación o circunstancias, tengan la oportunidad de participar en el aprendizaje y el desarrollo a través de una conectividad amplia y accesible. Creemos firmemente que al implementar esta solución, estaremos haciendo una contribución significativa al progreso social y al empoderamiento de las comunidades menos privilegiadas.</p>
         </DescriptionContainer>
         <FowardButtonContainer>
-          <button onClick={exploreFunction}>EXPLORE</button>
+          <button onClick={exploreFunction}>EXPLORA</button>
         </FowardButtonContainer>
       </ItemsContainer>
     </Container>

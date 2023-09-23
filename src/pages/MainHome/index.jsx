@@ -1,5 +1,5 @@
 import { Container, Navbar, NavbarList } from "./styles"
-import siteLogo from '../../../public/assets/shared/logo.svg'
+import siteLogo from '../../../public/assets/shared/logo1.svg'
 import { useState } from "react"
 import Home from "../Home/index"
 import Destination from "../Destination"
@@ -26,19 +26,19 @@ function MainHome() {
           <li className={`${currentPage === 0 ? 'selected' : ''}`} onClick={() => {
             setCurrentPage(0)
             setMenuOpen(false)
-          }}><span>00</span> HOME</li>
+          }}><span>00</span> INICIO</li>
           <li className={`${currentPage === 1 ? 'selected' : ''}`} onClick={() => {
             setCurrentPage(1)
             setMenuOpen(false)
-          }}><span>01</span> DESTINATION</li>
+          }}><span>01</span> DATOS</li>
           <li className={`${currentPage === 2 ? 'selected' : ''}`} onClick={() => {
             setCurrentPage(2)
             setMenuOpen(false)
-          }}><span>02</span> CREW</li>
+          }}><span>02</span> EQUIPO</li>
           <li className={`${currentPage === 3 ? 'selected' : ''}`} onClick={() => {
             setCurrentPage(3)
             setMenuOpen(false)
-          }}><span>03</span> TECHNOLOGY</li>
+          }}><span>03</span> PROTOTIPO</li>
         </NavbarList>
       </Navbar>
       {currentPage === 0 && <Home exploreFunction = {exploreFun}/>}
