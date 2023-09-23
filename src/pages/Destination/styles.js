@@ -118,6 +118,7 @@ export const ImageContainer = styled.div`
   overflow: hidden;
   
   @media (max-width: 900px) {
+    width: 100%;
     margin-bottom: 20px;
   }
 

@@ -11,10 +11,10 @@
       "travel": "103 Puntos de acceso"
     },
     {
-      "name": "Mars",
+      "name": "Dashboard",
       "images": {
         "png": "./assets/destination/image-mars.png",
-        "webp": "https://mapas.bogota.gov.co/?l=23214&e=-74.345096784161,4.491328472735738,-73.8695947700015,4.76132731868723,4686&b=7256&show_menu=true&show_list=false&open_menu=false&show_search=false&show_legend=false"
+        "webp": "https://app.powerbi.com/view?r=eyJrIjoiZGI1NGZjOTUtOTEyMy00N2JjLWI3NWMtODI0OGMwYzZkMjc2IiwidCI6ImRhNDUyMmNlLTg3YTAtNGM2Yy05ZWRlLWY5M2MzMzY0NTI2MiIsImMiOjR9&pageName=ReportSection"
       },
       "description": "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!",
       "distance": "225 mil. km",
